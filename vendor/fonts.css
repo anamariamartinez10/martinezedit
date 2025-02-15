@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "JuliusSansOne";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/JuliusSansOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IbarraRealNova";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/IbarraRealNova-VariableFont_wght.ttf") format("truetype");
+}
