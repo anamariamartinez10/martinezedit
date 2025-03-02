@@ -3,3 +3,7 @@
 @import url("../vendor/fonts.css");
 @import url("../blocks/header.css");
 @import url("../blocks/nav.css");
+@import url("../blocks/editing.css");
+@import url("../blocks/rates.css");
+@import url("../blocks/about.css");
+@import url("../blocks/footer.css");

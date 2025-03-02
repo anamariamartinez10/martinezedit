@@ -1,0 +1,40 @@
+.editing {
+  margin: 0 auto;
+}
+
+.editing__title {
+  font-family: "JuliusSansOne";
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  margin: 60px auto 5px;
+}
+
+.editing__services {
+  margin: 0;
+  padding: 0;
+}
+
+.editing__service {
+  list-style-type: none;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.editing__service_title {
+  font-family: "JuliusSansOne";
+  font-size: 30px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.editing__service_copy {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.editing__list {
+  margin: 0 auto 0 100px;
+  padding: 0;
+  list-style-type: disc;
+}

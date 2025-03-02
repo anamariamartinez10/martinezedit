@@ -1,0 +1,27 @@
+.about__title {
+  font-family: "JuliusSansOne";
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  margin: 50px auto 5px;
+}
+
+/* .about__content {
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+.about__photos {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about__photo {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.about__photo:first-of-type {
+  max-width: 245px;
+  max-height: 245px;
+}
