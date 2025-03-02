@@ -4,12 +4,8 @@
   margin: 0;
   padding: 0;
   margin: 50px auto 5px;
+  text-align: end;
 }
-
-/* .about__content {
-  display: flex;
-  flex-direction: row-reverse;
-} */
 
 .about__photos {
   display: flex;
@@ -24,4 +20,13 @@
 .about__photo:first-of-type {
   max-width: 245px;
   max-height: 245px;
+}
+
+.about__contact {
+  font-family: "JuliusSansOne";
+  font-family: 16px;
+}
+
+.about__contacts {
+  list-style-type: none;
 }
