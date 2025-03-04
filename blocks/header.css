@@ -33,4 +33,12 @@
   .header__name {
     font-size: 40px;
   }
+
+  .header__photo:nth-of-type(2n) {
+    visibility: hidden;
+  }
+
+  .header__photo:nth-of-type(3n) {
+    visibility: hidden;
+  }
 }
