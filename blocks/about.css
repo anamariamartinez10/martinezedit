@@ -10,9 +10,21 @@
 .about__content {
   display: flex;
   flex-direction: row-reverse;
+  position: relative;
 }
 
 .about__photo {
   max-width: 250px;
   max-height: 250px;
+}
+
+.about__copy {
+  margin: 40px 0;
+  padding: 20px;
+}
+
+@media screen and (max-width: 520px) {
+  .about__content {
+    flex-wrap: wrap;
+  }
 }

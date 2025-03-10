@@ -1,6 +1,13 @@
 .contact {
   font-family: "JuliusSansOne";
   font-family: 16px;
+  text-align: center;
+  margin: 0;
+  padding-right: 200px;
+}
+
+.contact__header {
+  font-size: 30px;
 }
 
 .contact__list {

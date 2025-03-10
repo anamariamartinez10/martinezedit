@@ -9,7 +9,6 @@
   font-family: "JuliusSansOne";
   font-size: 16px;
   color: #db7093;
-  max-width: 150px;
   text-align: center;
 }
 
@@ -21,3 +20,8 @@
 .footer__link:hover {
   color: darkgrey;
 }
+
+@media screen and (max-width: 520px) {
+  .footer__copyright {
+    max-width: 150px;
+  }
