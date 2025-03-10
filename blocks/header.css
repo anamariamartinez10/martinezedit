@@ -27,6 +27,7 @@
 .header__image {
   max-width: 378px;
   max-height: 249px;
+  border-radius: 6px;
 }
 
 @media screen and (max-width: 520px) {
