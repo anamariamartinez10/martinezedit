@@ -19,11 +19,11 @@
   flex-direction: column;
   justify-content: start;
   margin: 5px 40px;
+  padding: 0;
   gap: 15px;
   position: relative;
 }
 
-/* center all this //Editing services */
 .contact__social-icon {
   height: 40px;
   width: 45px;

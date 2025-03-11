@@ -1,7 +1,42 @@
-.projects__title {
+.projects__header {
   font-family: "JuliusSansOne";
   font-size: 48px;
-  margin: 0;
   padding: 0;
-  margin: 50px auto 5px;
+  margin: 60px auto 5px;
+}
+
+.projects__title {
+  font-family: "JuliusSansOne";
+  font-size: 30px;
+  margin: 0;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.projects__list {
+  list-style-type: "✲";
+  padding: 0;
+  margin-left: 30px;
+}
+
+.projects__item {
+  padding: 10px;
+  margin: 0;
+  line-height: 25px;
+}
+
+.projects__photos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.projects__image {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.projects__image:hover {
+  max-height: 500px;
+  max-width: 500px;
 }
