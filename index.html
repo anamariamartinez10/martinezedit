@@ -16,10 +16,18 @@
       <div class="header__lead">
         <h1 class="header__name">Marina Martinez</h1>
         <ul class="nav">
-          <li class="nav__link">Projects</li>
-          <li class="nav__link">Services</li>
-          <li class="nav__link">About</li>
-          <li class="nav__link">Rates</li>
+          <li>
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li>
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li>
+            <a href="#rates" class="nav__link">Rates</a>
+          </li>
         </ul>
       </div>
 
@@ -37,26 +45,17 @@
     </header>
 
     <main>
-      <section class="editing">
+      <section class="editing" id="services">
         <h2 class="editing__title">Editorial Services</h2>
         <ul class="editing__services" title="Editorial Services">
           <li class="editing__card">
-            <div class="editing__card-inner">
-              <div class="editing__card-front">
-                <h3 class="editing__service_title">
-                  Story and Pitch Development
-                </h3>
-              </div>
-              <div class="editing__card-back">
-                <p class="editing__service_copy">
-                  Have a concept you want to turn into a story? I can assist you
-                  with refining your story and developing an outline you can
-                  turn into a manuscript. Already have an outline? I can assist
-                  with creating or reviewing a pitch document for prospective
-                  publishers!
-                </p>
-              </div>
-            </div>
+            <h3 class="editing__service_title">Story and Pitch Development</h3>
+            <p class="editing__service_copy">
+              Have a concept you want to turn into a story? I can assist you
+              with refining your story and developing an outline you can turn
+              into a manuscript. Already have an outline? I can assist with
+              creating or reviewing a pitch document for prospective publishers!
+            </p>
           </li>
 
           <li class="editing__card">
@@ -130,7 +129,11 @@
         </ul>
       </section>
 
-      <section class="about">
+      <section class="projects" id="projects">
+        <h2 class="projects__title">Projects</h2>
+      </section>
+
+      <section class="about" id="about">
         <h2 class="about__title">About Me</h2>
         <div class="about__content">
           <img
@@ -150,16 +153,7 @@
         </div>
       </section>
 
-      <section class="contact">
-        <h3 class="contact__header">Contact</h3>
-        <ul class="contact__list">
-          <li class="contact__email">marinam1031@gmail.com</li>
-          <li class="contact__bluesky">@witchm.bsky.social</li>
-          <li class="contact__instagram">@witchmarina</li>
-        </ul>
-      </section>
-
-      <section class="rates">
+      <section class="rates" id="rates">
         <h2 class="rates__title">Rates</h2>
         <p class="rates__content">
           My rates vary based on the services requested, please get in touch to
@@ -168,6 +162,49 @@
           rates for BIPOC creators.
         </p>
       </section>
+
+      <section class="contact" id="contact">
+        <h3 class="contact__header">Contact</h3>
+        <ul class="contact__list">
+          <li class="contact__social">
+            <img
+              src="./images/computericon 2.jpg"
+              alt="computer icon"
+              class="contact__social-icon"
+            />
+            <a href="#" class="contact__link" target="_blank">
+              marinam1031@gmail.com</a
+            >
+          </li>
+          <li class="contact__social">
+            <img
+              src="./images/blueskyIcon.png"
+              alt="Blue Sky icon"
+              class="contact__social-icon"
+            />
+            <a
+              href="https://bsky.app/profile/witchm.bsky.social"
+              class="contact__link"
+              target="_blank"
+              >@witchm.bsky.social</a
+            >
+          </li>
+          <li class="contact__social">
+            <img
+              src="./images/instagramIcon.png"
+              alt="Blue Sky icon"
+              class="contact__social-icon"
+            />
+            <a
+              href="https://www.instagram.com/witchmarina/"
+              class="contact__link"
+              target="_blank"
+              >@witchmarina</a
+            >
+          </li>
+        </ul>
+      </section>
+      <!--  -->
     </main>
   </body>
 
