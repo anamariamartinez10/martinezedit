@@ -10,7 +10,8 @@
   font-size: 30px;
   margin: 0;
   padding: 5px;
-  line-height: 20px;
+  line-height: 22px;
+  font-style: italic;
 }
 
 .projects__list {
@@ -39,4 +40,11 @@
 .projects__image:hover {
   max-height: 500px;
   max-width: 500px;
+}
+
+@media screen and (max-width: 520px) {
+  .projects__photos {
+    visibility: hidden;
+    max-height: 5px;
+  }
 }

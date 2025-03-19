@@ -22,6 +22,10 @@
   padding: 20px;
 }
 
+.about__copy_span {
+  font-style: italic;
+}
+
 @media screen and (max-width: 520px) {
   .about__content {
     flex-wrap: wrap;
