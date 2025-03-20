@@ -6,12 +6,12 @@
 }
 
 .projects__title {
-  font-family: "JuliusSansOne";
   font-size: 30px;
   margin: 0;
   padding: 5px;
   line-height: 22px;
   font-style: italic;
+  font-weight: 700;
 }
 
 .projects__list {
